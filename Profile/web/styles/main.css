@@ -1,0 +1,155 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://png.pngtree.com/png-clipart/20230823/original/pngtree-blue-bubbles-abstract-backdrop-background-picture-image_8208842.png'); /* Đường dẫn tới hình nền */
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: whitesmoke;
+        }
+
+header a {
+            text-decoration: none;
+        }
+
+header img:first-child {
+            max-width: 100%;
+            height: auto;
+        }
+h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 20px;
+        }
+
+.info-container {
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            width: 40%;
+            background-color: white;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201019/pngtree-blue-line-background-design-blue-background-design-image_422602.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat; 
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+ p {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+ h2 {
+            font-size: 20px;
+            color: #333;
+            margin: 20px;
+            text-align: center;
+        }
+
+.homework-link {
+            text-align: center;
+        }
+
+a {
+            color: #007BFF;
+        }
+
+.profile-img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+.left-container, .right-container {
+            width: 20%;
+            background-color: #f0f0f0;
+            padding: 20px 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+.left-container h3, .right-container h3 {
+            font-size: 16px;
+            color: #333;
+        }
+
+.left-container p, .right-container p {
+            font-size: 14px;
+            color: #777;
+        }
+
+audio {
+            width: 100%;
+        }
+
+.container {
+            display: flex;
+            justify-content: space-between;
+        }
+.homework-container {
+    margin-bottom: 20px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.homework-container h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.homework-container ol {
+    list-style: decimal;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.homework-container li {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.homework-item {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: not-allowed; 
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.homework-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.homework-container a:hover {
+    text-decoration: underline;
+}
